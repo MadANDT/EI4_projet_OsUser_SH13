@@ -9,6 +9,8 @@
 #include <netdb.h>
 #include <arpa/inet.h>
 
+#include <time.h>
+
 struct _client
 {
         char ipAddress[40];
